@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "183413683367",
+    "project_id": "femlorasalon-srushtishin-25940",
+    "storage_bucket": "femlorasalon-srushtishin-25940.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183413683367:android:9d96ca24b1c2ca4ecd5782",
+        "android_client_info": {
+          "package_name": "com.example.femlorasalon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMyGixC_CiI12eg2eOXag0fGEQhvMAFsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

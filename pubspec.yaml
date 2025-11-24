@@ -1,0 +1,41 @@
+name: femlorasalon
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  shared_preferences: ^2.5.3
+  random_string: ^2.3.1
+  cloud_firestore: ^6.1.0
+  pdf: ^3.10.4
+  printing: ^5.11.0
+  google_fonts: ^6.2.1
+  flutter_stripe: ^12.1.1
+  intl: ^0.18.1
+  fl_chart: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # --- CUSTOM FONT DECLARATION ---
+  fonts:
+    - family: CursiveStyle   # <-- Name you use in your code (fontFamily: 'CursiveStyle')
+      fonts:
+        - asset: assets/fonts/gamilt.ttf # <-- IMPORTANT: Change 'CursiveFont.ttf' to your font's actual filename (e.g., 'Gamilt.ttf')
